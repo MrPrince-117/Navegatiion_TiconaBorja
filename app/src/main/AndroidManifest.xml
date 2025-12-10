@@ -20,6 +20,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".Activities.AddMealsActivity"
+            android:exported="false"/>
+
+        <activity
+            android:name=".Activities.DeleteMealActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Activities.ListMealActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Activities.SearchMealActivity"
+            android:exported="false"/>
+        <activity
+            android:name=".Activities.DetailsActivity"
+            android:exported="false"/>
     </application>
 
 </manifest>
